@@ -1,0 +1,21 @@
+
+    {
+        "name":"Israel Arjona",
+        "email":"iarjona@ittepic.edu.mx",
+        "photo": "http://media.graytvinc.com/images/sports69.jpg",
+        "sports":[
+            {
+                "name":"Futbol",
+                "color":"green"
+            },
+            {
+                "name":"Basket Ball",
+                "color":"orange"
+            },
+            {
+                "name":"Beisbol",
+                "color":"blue"
+            }
+           
+        ]
+    }

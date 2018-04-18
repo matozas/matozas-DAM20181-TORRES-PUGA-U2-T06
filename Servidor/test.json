@@ -1,0 +1,21 @@
+[
+    {
+        "title":"La casa de papel",
+        "category":"objects",
+        "description": "Es una serie que trata de que un profesor recluta estudiantes para salvar una materia"
+
+    },
+    {
+        "title":"Avengers",
+        "category":"nature",
+        "description": "accion"
+
+    },
+    {
+        "title":"Chabelo y pepito contra los mostruos",
+        "category":"people",
+        "description": "Chavelo va de excursion con pepito"
+
+    }
+
+]
