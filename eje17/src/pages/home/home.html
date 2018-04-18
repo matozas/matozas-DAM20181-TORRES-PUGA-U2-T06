@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Deportes
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+      <ion-item>
+          <ion-label stacked>Ingresa tu email</ion-label>
+        </ion-item>
+    <ion-item>
+      <ion-input  type="email"></ion-input>
+    </ion-item>
+  </ion-list>
+  <div padding>
+    <button ion-button color="primary" block>Ingresar</button>
+  </div>
+</ion-content>
+
+<ion-content padding>
+    <ion-card #myCard *ngFor="let item of quotes.data">
+      <img [src]="http://source.unplash.com/category/"
+      +item.category+"/600x390" 
+      [height]="myCard.clientWidth*390/600"/>
+      <ion-card-content>
+        <ion-card-title>
+          {{item.title}}
+        </ion-card-title>
+        <p>
+          {{item.description}}
+        </p>
+      </ion-card-content>
+    </ion-card>
+   </ion-content>
+   
