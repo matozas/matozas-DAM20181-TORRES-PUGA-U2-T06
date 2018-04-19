@@ -9,10 +9,16 @@ import { HomePage } from '../pages/home/home';
 //importamos clase 
 import {QuoteService} from "../services/quote";
 import {HttpModule} from "@angular/http"; 
+
+import {DatosPage} from '../pages/datos/datos';
+import {DeportesPage} from '../pages/deportes/deportes';
+
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    DatosPage,
+    DeportesPage
   ],
   imports: [
     BrowserModule,
@@ -21,7 +27,9 @@ import {HttpModule} from "@angular/http";
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    DatosPage,
+    DeportesPage
   ],
   providers: [
     StatusBar,
